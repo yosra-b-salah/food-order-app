@@ -4,7 +4,9 @@ const CartContext = React.createContext({
 	totaAmount: 0,
 	items: [],
 	addItem: (item) => { },
-	removeItem: (id) => { }
+	removeItem: (id) => { },
+	// fuction to clear the cart
+	clearCart: () => { }
 })
 
 export default CartContext;
